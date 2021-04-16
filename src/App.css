@@ -87,7 +87,7 @@ body{
 
 .navCon {
   display: flex;
-  background-color: #aaa4da;
+  background-color: #eba350;
   height: 70px;
   width: 500px;
   box-shadow: 0px 0px 20px #000000 ;
@@ -101,7 +101,7 @@ body{
 }
 a:link,
 a:visited {
-  color: #904819;
+  color: white;
   text-decoration: none;
 }
 .superContainer {

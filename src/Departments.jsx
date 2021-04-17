@@ -40,7 +40,7 @@ class Departments extends React.Component {
   }
 
   componentDidMount() {
-    fetch("https://data.sfgov.org/resource/pxac-sadh.json")
+    fetch("https://data.sfgov.org/resource/pxac-sadh.json?$limit=5000")
       .then((res) => res.json())
       .then(
         (result) => {
